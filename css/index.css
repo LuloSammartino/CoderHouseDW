@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-bottom: 14em;
+    min-height: 100vh;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.header{
+    width: 100% ;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    align-self: center;
+    justify-self: start;
+    color:  #FFD70A;
+    font-family: "Metal mania";
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    list-style-type: none
+}
+
+.contenedorLogoBotones{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorBotones li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 110px;
+    height: 100%;
+    margin-inline: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:100% ;
+}
+
+.logo {
+    width: 160px;
+    height: 90%;
+}
+.contenedorBotones a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedorBotones li:hover{
+    background-color: #FFD70A;
+    
+}
+
+.profilePicture{
+    align-self:start;
+    padding: 10px;
+    border-radius: 0% 0% 0% 60%;    
+    border: 2px solid black;
+}
+
+.profilePicture img{
+    width: 50px;
+}
+
+.profilePicture:hover {
+    background-color: #FFD70A;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.oferta{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+    display: flex;
+}
+
+.contenedorDescuentos{
+    width: 50%;
+    color: #FFD70A;
+    padding: 20px;
+    font-family: "Metal mania";
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorDescuentos:first-child{
+    justify-self: end;
+}
+
+.contenedorDescuentos:last-child{
+    justify-self: end;
+}
+
+.contenedorPlatillos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crashK{
+    align-self: end;
+    width: 150px;
+    height: 150px;
+}
+
+.platillo{
+    align-self: start;
+    width: 150px;
+    height: 150px;
+}
+
+.platillosZildjean{
+    align-self: start;
+    width: 150px;
+    height: 100px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    position: absolute;
+    background-color: #FFD70A;
+    bottom: 0;
+}
+
+
+
+.contenido{
+    width: 100%;
+    
+}
+
+.contenedorMarcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    padding: 10px;
+}
+
+.remo{
+    width: 100px;
+    height: 35px;
+    align-self: flex-start;
+}
+
+.evans{
+    width: 125px;
+    height: 30px;
+    align-self: flex-start;
+}
+
+.vicfirth{
+    width: 80px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.zidjean{
+    width: 120px;
+    height: 45px;
+    align-self: flex-end;
+}
+
+.contenedorRedes{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 10px;
+}
+
+.instagram {
+    width: 40px;
+    height: 32px;
+}
+
+.facebook{
+    width: 25px;
+    height: 25px;
+}
+
+.whatsapp{
+    width: 30px;
+    height: 30px;
+}
+
+.maps{
+    width: 20px;
+    height: 28px;
+}
+
+.bombo{
+    width: 100%;
+    height: 75%;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Home */
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 290px;
+    position: relative;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.precio{
+    position: absolute;
+    bottom: -10px;
+    right: -9px;
+    width: fit-content;
+    border: solid black;
+    border-radius: 20px;
+    background-color: greenyellow;
+    padding-inline: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nombreProducto{
+    display: flex;
+    padding: 10px;  
+}
+
+.doblePedal{
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+.tom{
+    width: 100%;
+    height: 75%;
+    padding-left:10px;
+}
+
+.tambor{
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contenedorCategories{
+    padding: 80px;
+}
+
+.categories{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 150px));
+    grid-template-rows: 50% 50%;
+    
+    gap: 32px;
+}
+
+.categories div{
+    border-radius: 10px 10px 0px 0px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.categories div:hover{
+    background-color: #FFD70A;
+}
+
+.categories div h4{
+    width: 100%;
+    height: 15%;
+    background-color: #FFD70A;
+    padding: 10px;
+    border-top: solid  black ;
+    display:block ;
+    font-size:20px ;
+    cursor:default;
+}
+
+.imgCategories{
+    width: 100%;
+    height: 85%;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Quienes Somos */
+
+.contenedorTextos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contenedorTexto1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px ;
+}
+
+.contenedorTexto1 p{
+    padding: 10px;
+}
+
+.contenedorTexto2{
+    display: flex;
+    width: 50%;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.contenedorTexto2 p {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedorTexto2 img{
+    width: 40px;
+    height: 40px ;
+    margin-right: 25px;
+    
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contacto{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+.formLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.formRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formLeft div{
+    display:flex;
+    margin:10px
+}
+
+.formLeft div input{
+    width: 100%;
+    height:100px;
+    
+}
+
+.drummer{
+    width: 500px;
+    height: 500px;
+}
+
+.contacto button{
+    background-color: greenyellow;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contenidoPerfil{
+    display: flex;
+    padding: 50px;
+}
+
+
+
+.login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerLabels{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.login button{
+    background-color: greenyellow;
+    font-size: 30px;
+    height: 10%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    margin-right: 125px;
+}
+
+.signup label{
+    align-self: start;
+}
+
+.contenidoPerfil h3 {
+    font-family: "Metal mania";
+}
+
+.contenidoPerfil h4{
+    font-family: "Metal mania";
+}
+
+.middle{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1766px){
+    .contenedorBotones{
+        gap: 70px;
+    }    
+}
+
+@media (max-width: 1376px){
+    .titulo{
+        font-size: 40px;  
+    }
+    .contenedorBotones{
+        gap: 0px;
+    }
+}
+
+@media (max-width:1103px){
+    
+    .contenedorBotones li{
+        width: 66px;
+        font-size: 60%;
+    }
+} 
+
+@media (max-width: 927px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profilePicture{
+        align-self: center;
+    }
+    .contenedorBotones li{
+        width: 110px;
+        font-size: 100%;
+    }
+    .profilePicture{
+        border-radius: 0% 0% 60% 60%;   
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .contenedorBotones{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contenidoPerfil{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .contenedorRedes{
+        gap: 20px;
+        justify-content: center;
+    }
+    .zidjean{
+        width: 80px;
+        height: 35px;
+    }
+    .evans{
+        width: 85px;
+        height: 25px;
+    }
+    .remo{
+        width: 60px;
+        height: 25px;
+    }
+    .vicfirth{
+        width: 50px;
+        height: 30px;
+    }
+    .contenedorTextos{
+        flex-direction: column;
+    }
+    .contenedorTexto1{
+        width: 100%;
+    }
+    .contenedorTexto2{
+        width: 100%;
+    }
+    .middle{
+        width: 100%;
+    }
+    .login{
+        width: 100%;
+    }
+}
+
+@media (max-width:386px){
+
+    .contenedorMarcas{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}
