@@ -119,19 +119,19 @@ body {
 
 .crashK{
     align-self: end;
-    width: 150px;
+    width: 100%;
     height: 150px;
 }
 
 .platillo{
     align-self: start;
-    width: 150px;
+    width: 100%;
     height: 150px;
 }
 
 .platillosZildjean{
     align-self: start;
-    width: 150px;
+    width: 100%;
     height: 100px;
 }
 
@@ -231,6 +231,7 @@ body {
     margin-top: 50px;
     flex-wrap: wrap;
     padding: 20px;
+    gap:20px
 }
 
 .card{
@@ -286,9 +287,7 @@ body {
 .categories{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 150px));
-    grid-template-rows: 50% 50%;
-    
+    grid-template-columns: auto auto auto;
     gap: 32px;
 }
 
@@ -311,9 +310,10 @@ body {
     background-color: #FFD70A;
     padding: 10px;
     border-top: solid  black ;
-    display:block ;
+    display:flex ;
     font-size:20px ;
     cursor:default;
+    align-items: center;
 }
 
 .imgCategories{
@@ -490,12 +490,21 @@ body {
         width: 66px;
         font-size: 60%;
     }
+    .cards{
+        gap: 40px;
+    }
+    .contenedorDescuentos{
+        font-size: 25px;
+    }
 } 
 
 @media (max-width: 927px){
     .header{
         flex-direction: column;
         align-items: center;
+    }
+    .categories div h4{
+        font-size: 15px;
     }
     .profilePicture{
         align-self: center;
@@ -559,10 +568,20 @@ body {
     .login{
         width: 100%;
     }
+    .categories{
+        grid-template-columns: auto auto;
+    }
+    .categories div h4{
+        padding: 0px;
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width:386px){
-
+    .categories{
+        grid-template-columns:  auto;
+    }
     .contenedorMarcas{
         width: 100%;
         justify-content: space-between;
