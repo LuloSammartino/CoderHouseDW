@@ -1,0 +1,75 @@
+
+
+.header{
+    width: 100% ;
+    background-color: map-get($colors, secondary);;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    align-self: center;
+    justify-self: start;
+    color:  map-get($colors, primary);
+    font-family: $tipografia;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    list-style-type: none
+}
+
+.contenedorLogoBotones{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorBotones li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 110px;
+    height: 100%;
+    margin-inline: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:100% ;
+}
+
+.logo {
+    width: 160px;
+    height: 90%;
+}
+.contenedorBotones a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedorBotones li:hover{
+    background-color: map-get($colors, primary);
+    
+}
+
+.profilePicture{
+    align-self:start;
+    padding: 10px;
+    border-radius: 0% 0% 0% 60%;    
+    border: 2px solid black;
+}
+
+.profilePicture img{
+    width: 50px;
+}
+
+.profilePicture:hover {
+    background-color: map-get($colors, primary);
+}

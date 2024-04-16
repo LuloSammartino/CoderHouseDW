@@ -1,0 +1,29 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    position: relative;
+    padding-bottom: 14em;
+    min-height: 100vh;
+}
+@import "./utilties/mixins";
+@import "./utilties/variables";
+
+@import "header.scss";
+@import "oferta";
+@import "footer.scss";
+@import "inicio.scss";
+@import "categorias.scss";
+@import "quienesSomos.scss";
+@import "contacto.scss";
+@import "perfil.scss";
+
+@import "./mediaQ/mediaQueries"
+
+
+

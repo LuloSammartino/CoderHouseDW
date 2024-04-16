@@ -1,0 +1,119 @@
+@media (max-width:1766px){
+    .contenedorBotones{
+        gap: 70px;
+    }    
+}
+
+@media (max-width: 1376px){
+    .titulo{
+        font-size: 40px;  
+    }
+    .contenedorBotones{
+        gap: 0px;
+    }
+}
+
+@media (max-width:1103px){
+    
+    .contenedorBotones li{
+        width: 66px;
+        font-size: 60%;
+    }
+    .cards{
+        gap: 40px;
+    }
+    .contenedorDescuentos{
+        font-size: 25px;
+    }
+} 
+
+@media (max-width: 927px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories div h4{
+        font-size: 15px;
+    }
+    .profilePicture{
+        align-self: center;
+    }
+    .contenedorBotones li{
+        width: 110px;
+        font-size: 100%;
+    }
+    .profilePicture{
+        border-radius: 0% 0% 60% 60%;   
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .contenedorBotones{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contenidoPerfil{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .contenedorRedes{
+        gap: 20px;
+        justify-content: center;
+    }
+    .zidjean{
+        width: 80px;
+        height: 35px;
+    }
+    .evans{
+        width: 85px;
+        height: 25px;
+    }
+    .remo{
+        width: 60px;
+        height: 25px;
+    }
+    .vicfirth{
+        width: 50px;
+        height: 30px;
+    }
+    .contenedorTextos{
+        flex-direction: column;
+    }
+    .contenedorTexto1{
+        width: 100%;
+    }
+    .contenedorTexto2{
+        width: 100%;
+    }
+    .middle{
+        width: 100%;
+    }
+    .login{
+        width: 100%;
+    }
+    .categories{
+        grid-template-columns: auto auto;
+    }
+    .categories div h4{
+        padding: 0px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:386px){
+    .categories{
+        grid-template-columns:  auto;
+    }
+    .contenedorMarcas{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}

@@ -1,0 +1,57 @@
+
+
+.contenidoPerfil{
+    display: flex;
+    padding: 50px;
+}
+
+
+.login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerLabels{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.login button{
+    @include flexCenter;
+    background-color: map-get($colors, tertiary );
+    font-size: 30px;
+    height: 10%;
+    width: 50px;
+    align-self: end;
+    margin-right: 125px;
+}
+
+.signup label{
+    align-self: start;
+}
+
+.contenidoPerfil h3 {
+    font-family: $tipografia;
+}
+
+.contenidoPerfil h4{
+    font-family: $tipografia;
+}
+
+.middle{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

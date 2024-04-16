@@ -1,0 +1,51 @@
+
+
+.oferta{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+    display: flex;
+}
+
+.contenedorDescuentos{
+    width: 50%;
+    color: map-get($colors, primary );
+    padding: 20px;
+    font-family: $tipografia;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorDescuentos:first-child{
+    justify-self: end;
+}
+
+.contenedorDescuentos:last-child{
+    justify-self: end;
+}
+
+.contenedorPlatillos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crashK{
+    align-self: end;
+    width: 100%;
+    height: 150px;
+}
+
+.platillo{
+    align-self: start;
+    width: 100%;
+    height: 150px;
+}
+
+.platillosZildjean{
+    align-self: start;
+    width: 100%;
+    height: 100px;
+}
