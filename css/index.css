@@ -331,12 +331,12 @@ main {
     justify-content: start;
     align-items: center;
     gap: 30px; }
-    main form .containerLabels {
+    main form article {
       display: flex;
       flex-direction: column;
       align-items: end;
       gap: 20px; }
-      main form .containerLabels .labels {
+      main form article div {
         display: flex;
         flex-direction: row; }
     main form button {
@@ -349,21 +349,16 @@ main {
       width: 50px;
       align-self: end;
       margin-right: 125px; }
-
-.signup label {
-  align-self: start; }
-
-.contenidoPerfil h3 {
-  font-family: "Metal mania"; }
-
-.contenidoPerfil h4 {
-  font-family: "Metal mania"; }
+    main form h3 {
+      font-family: "Metal mania"; }
 
 .middle {
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .middle h4 {
+    font-family: "Metal mania"; }
 
 @media (max-width: 1766px) {
   .contenedorBotones {

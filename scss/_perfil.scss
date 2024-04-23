@@ -10,12 +10,12 @@ main{
         justify-content: start;
         align-items: center;
         gap: 30px;
-        .containerLabels{
+        article{
             display: flex;
             flex-direction: column;
             align-items: end;
             gap: 20px;
-            .labels{
+            div{
                 display: flex;
                 flex-direction: row;
             }
@@ -29,24 +29,10 @@ main{
             align-self: end;
             margin-right: 125px;
         }
+        h3 {
+            font-family: $tipografia;
+        }
     }
-}
-
-
-
-
-
-
-.signup label{
-    align-self: start;
-}
-
-.contenidoPerfil h3 {
-    font-family: $tipografia;
-}
-
-.contenidoPerfil h4{
-    font-family: $tipografia;
 }
 
 .middle{
@@ -54,4 +40,10 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    h4{
+        font-family: $tipografia;
+    }
 }
+
+
+
