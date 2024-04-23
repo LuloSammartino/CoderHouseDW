@@ -1,21 +1,21 @@
 @media (max-width:1766px){
-    .contenedorBotones{
+    header div ul{
         gap: 70px;
     }    
 }
 
 @media (max-width: 1376px){
-    .titulo{
+    header h1{
         font-size: 40px;  
     }
-    .contenedorBotones{
+    header div ul{
         gap: 0px;
     }
 }
 
 @media (max-width:1103px){
     
-    .contenedorBotones li{
+    header div ul li{
         width: 66px;
         font-size: 60%;
     }
@@ -28,26 +28,26 @@
 } 
 
 @media (max-width: 927px){
-    .header{
+    header{
         flex-direction: column;
         align-items: center;
     }
-    .categories div h4{
+    .contenedorCategories section div h4{
         font-size: 15px;
     }
-    .profilePicture{
+    header .profilePicture{
         align-self: center;
         border-radius: 0% 0% 60% 60%;   
         margin: 5px;
     }
-    .contenedorBotones li{
+    header div ul li{
         width: 110px;
         font-size: 100%;
     }
 }
 
 @media (max-width: 768px){
-    .contenedorBotones{
+    header div ul{
         flex-direction: column;
         gap: 10px;
     }
@@ -95,10 +95,10 @@
     .login{
         width: 100%;
     }
-    .categories{
+    .contenedorCategories section{
         grid-template-columns: auto auto;
     }
-    .categories div h4{
+    .contenedorCategories section div h4{
         padding: 0px;
         font-size: 10px;
     }
@@ -106,7 +106,7 @@
 }
 
 @media (max-width:386px){
-    .categories{
+    .contenedorCategories section{
         grid-template-columns:  auto;
     }
     .contenedorMarcas{
