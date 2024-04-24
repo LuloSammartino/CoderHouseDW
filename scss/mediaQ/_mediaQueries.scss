@@ -51,7 +51,7 @@
         flex-direction: column;
         gap: 10px;
     }
-    .footer{
+    footer{
         flex-direction: column;
         gap: 30px;
     }
@@ -60,23 +60,23 @@
         align-items: center;
         gap: 50px;
     }
-    .contenedorRedes{
+    footer .contenedorRedes{
         gap: 20px;
         justify-content: center;
     }
-    .zidjean{
+    footer .contenedorMarcas .zidjean{
         width: 80px;
         height: 35px;
     }
-    .evans{
+    footer .contenedorMarcas .evans{
         width: 85px;
         height: 25px;
     }
-    .remo{
+    footer .contenedorMarcas .remo{
         width: 60px;
         height: 25px;
     }
-    .vicfirth{
+    footer .contenedorMarcas .vicfirth{
         width: 50px;
         height: 30px;
     }
@@ -109,7 +109,7 @@
     .contenedorCategories section{
         grid-template-columns:  auto;
     }
-    .contenedorMarcas{
+    footer .contenedorMarcas{
         width: 100%;
         justify-content: space-between;
     }

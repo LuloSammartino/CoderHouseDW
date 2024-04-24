@@ -105,7 +105,7 @@ header {
   width: 100%;
   height: 100px; }
 
-.footer {
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,56 +113,46 @@ header {
   position: absolute;
   background-color: #FFD70A;
   bottom: 0; }
-
-.contenedorMarcas {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 75%;
-  padding: 10px; }
-
-.remo {
-  width: 100px;
-  height: 35px;
-  align-self: flex-start; }
-
-.evans {
-  width: 125px;
-  height: 30px;
-  align-self: flex-start; }
-
-.vicfirth {
-  width: 80px;
-  height: 50px;
-  align-self: flex-end; }
-
-.zidjean {
-  width: 120px;
-  height: 45px;
-  align-self: flex-end; }
-
-.contenedorRedes {
-  width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-inline: 10px; }
-
-.instagram {
-  width: 40px;
-  height: 32px; }
-
-.facebook {
-  width: 25px;
-  height: 25px; }
-
-.whatsapp {
-  width: 30px;
-  height: 30px; }
-
-.maps {
-  width: 20px;
-  height: 28px; }
+  footer .contenedorMarcas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    padding: 10px; }
+    footer .contenedorMarcas .remo {
+      width: 100px;
+      height: 35px;
+      align-self: flex-start; }
+    footer .contenedorMarcas .evans {
+      width: 125px;
+      height: 30px;
+      align-self: flex-start; }
+    footer .contenedorMarcas .vicfirth {
+      width: 80px;
+      height: 50px;
+      align-self: flex-end; }
+    footer .contenedorMarcas .zidjean {
+      width: 120px;
+      height: 45px;
+      align-self: flex-end; }
+  footer .contenedorRedes {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 10px; }
+    footer .contenedorRedes .instagram {
+      width: 40px;
+      height: 32px; }
+    footer .contenedorRedes .facebook {
+      width: 25px;
+      height: 25px; }
+    footer .contenedorRedes .whatsapp {
+      width: 30px;
+      height: 30px; }
+    footer .contenedorRedes .maps {
+      width: 20px;
+      height: 28px; }
 
 .contenido {
   width: 100%;
@@ -391,26 +381,26 @@ header {
   header div ul {
     flex-direction: column;
     gap: 10px; }
-  .footer {
+  footer {
     flex-direction: column;
     gap: 30px; }
   .contenidoPerfil {
     flex-direction: column;
     align-items: center;
     gap: 50px; }
-  .contenedorRedes {
+  footer .contenedorRedes {
     gap: 20px;
     justify-content: center; }
-  .zidjean {
+  footer .contenedorMarcas .zidjean {
     width: 80px;
     height: 35px; }
-  .evans {
+  footer .contenedorMarcas .evans {
     width: 85px;
     height: 25px; }
-  .remo {
+  footer .contenedorMarcas .remo {
     width: 60px;
     height: 25px; }
-  .vicfirth {
+  footer .contenedorMarcas .vicfirth {
     width: 50px;
     height: 30px; }
   .contenedorTextos {
@@ -432,6 +422,6 @@ header {
 @media (max-width: 386px) {
   .contenedorCategories section {
     grid-template-columns: auto; }
-  .contenedorMarcas {
+  footer .contenedorMarcas {
     width: 100%;
     justify-content: space-between; } }
