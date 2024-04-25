@@ -44,6 +44,14 @@
         width: 110px;
         font-size: 100%;
     }
+    .contacto{
+        flex-direction: column;
+    }
+    .contacto section{
+        width: 100%;
+        align-items: center;
+        padding-inline: 220px;
+    }
 }
 
 @media (max-width: 768px){
