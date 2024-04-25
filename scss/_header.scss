@@ -36,6 +36,10 @@ header{
                 border: 2px solid black;
                 border-radius: 10px;
                 font-size:100% ;
+                &:hover{
+                    background-color: map-get($colors, primary);
+                    
+                }
             }
             a{
                 text-decoration: none;
@@ -52,6 +56,9 @@ header{
         padding: 10px;
         border-radius: 0% 0% 0% 60%;    
         border: 2px solid black;
+        &:hover {
+            background-color: map-get($colors, primary);
+        }
         img{
             width: 50px;
         }
@@ -63,13 +70,6 @@ header{
 
 
 
-.contenedorBotones li:hover{
-    background-color: map-get($colors, primary);
-    
-}
 
 
 
-.profilePicture:hover {
-    background-color: map-get($colors, primary);
-}

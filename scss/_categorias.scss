@@ -27,12 +27,12 @@
                 width: 100%;
                 height: 85%;
             }
+            &:hover{
+                background-color: map-get($colors, primary);
+            }
         }
     }
 }
 
 
-.categories div:hover{
-    background-color: map-get($colors, primary);
-}
 

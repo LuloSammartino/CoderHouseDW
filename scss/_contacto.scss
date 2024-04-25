@@ -2,39 +2,34 @@
     width: 100%;
     display: flex;
     font-size: 20px;
-}
-
-.formRight{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.formLeft{
-    @extend .formRight;
-    padding: 50px;
-}
-
-.formLeft div{
-    display:flex;
-    margin:10px
-}
-
-.formLeft div input{
-    width: 100%;
-    height:100px;
-    
-}
-
-.drummer{
-    width: 500px;
-    height: 500px;
-}
-
-.contacto button{
-    background-color: map-get($colors, tertiary);
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
+    section{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        div{
+            display:flex;
+            margin:10px;
+            input{
+                width: 100%;
+                height:100px;
+            }
+        }
+    }
+    article{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        .drummer{
+            width: 500px;
+            height: 500px;
+        }
+        
+    }
+    button{
+        background-color: map-get($colors, tertiary);
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
 }

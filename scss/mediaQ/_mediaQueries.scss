@@ -22,7 +22,7 @@
     .cards{
         gap: 40px;
     }
-    .contenedorDescuentos{
+    .oferta section{
         font-size: 25px;
     }
 } 
@@ -83,10 +83,10 @@
     .contenedorTextos{
         flex-direction: column;
     }
-    .contenedorTexto1{
+    .contenedorTextos section{
         width: 100%;
     }
-    .contenedorTexto2{
+    .contenedorTextos article{
         width: 100%;
     }
     .middle{
