@@ -45,12 +45,19 @@
         font-size: 100%;
     }
     .contacto{
-        flex-direction: column;
+        article{
+            justify-content: center;
+            img{
+            width: 255px;
+            height: 255px;
+        }
     }
-    .contacto section{
-        width: 100%;
-        align-items: center;
-        padding-inline: 220px;
+        
+    }
+    .contacto form{
+        margin-top: 50px;
+        align-items: end;
+        padding: 0px;
     }
 }
 
@@ -110,7 +117,26 @@
         padding: 0px;
         font-size: 10px;
     }
-
+    .contacto{
+        align-items: center;
+        justify-content: center;
+        form{
+            justify-self: center;
+            align-self: center;
+                div{
+                    font-size: 15px;
+                    input{
+                        width: 220px;
+                    }
+                    textarea{
+                        width: 220px;
+                    }
+                }
+        }
+        article{
+            display: none;
+        }
+    }
 }
 
 @media (max-width:386px){
@@ -121,5 +147,14 @@
         width: 100%;
         justify-content: space-between;
     }
-    
+    .contacto form{
+        div{
+            textarea{
+            width: 170px;
+            }  
+            input{
+            width: 170px;
+            }
+        } 
+    }
 }

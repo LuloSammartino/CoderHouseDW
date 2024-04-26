@@ -256,20 +256,20 @@ footer {
   width: 100%;
   display: flex;
   font-size: 20px; }
-  .contacto section {
+  .contacto form {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: end;
     padding: 50px; }
-    .contacto section div {
+    .contacto form div {
       display: flex;
       margin: 10px; }
-      .contacto section div input {
+      .contacto form div input {
         width: 300px;
         border-radius: 3px;
         border: 1px solid grey; }
-      .contacto section div textarea {
+      .contacto form div textarea {
         width: 300px;
         height: 175px;
         border-radius: 3px;
@@ -360,12 +360,15 @@ footer {
   header div ul li {
     width: 110px;
     font-size: 100%; }
-  .contacto {
-    flex-direction: column; }
-  .contacto section {
-    width: 100%;
-    align-items: center;
-    padding-inline: 220px; } }
+  .contacto article {
+    justify-content: center; }
+    .contacto article img {
+      width: 255px;
+      height: 255px; }
+  .contacto form {
+    margin-top: 50px;
+    align-items: end;
+    padding: 0px; } }
 
 @media (max-width: 768px) {
   header div ul {
@@ -407,11 +410,29 @@ footer {
     grid-template-columns: auto auto; }
   .contenedorCategories section div h4 {
     padding: 0px;
-    font-size: 10px; } }
+    font-size: 10px; }
+  .contacto {
+    align-items: center;
+    justify-content: center; }
+    .contacto form {
+      justify-self: center;
+      align-self: center; }
+      .contacto form div {
+        font-size: 15px; }
+        .contacto form div input {
+          width: 220px; }
+        .contacto form div textarea {
+          width: 220px; }
+    .contacto article {
+      display: none; } }
 
 @media (max-width: 386px) {
   .contenedorCategories section {
     grid-template-columns: auto; }
   footer .contenedorMarcas {
     width: 100%;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .contacto form div textarea {
+    width: 170px; }
+  .contacto form div input {
+    width: 170px; } }
