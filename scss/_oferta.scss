@@ -18,24 +18,26 @@
             align-self: center;
         }
     }
-    div{
+    article{
         width: 50%;
         display: flex;
         justify-content: space-between;
-        .crashK{
-            align-self: end;
-            width: 100%;
-            height: 150px;
-        }
-        .platillo{
-            align-self: start;
-            width: 100%;
-            height: 150px;
-        }
-        .platillosZildjean{
-            align-self: start;
-            width: 100%;
-            height: 100px;
+        div {
+            display: flex;          
+            .crashK{
+                width: 100%;
+                height: 70%;
+                align-self: end;
+            }   
+            .platillo{
+                width: 100%;
+                height: 70%;
+
+            }
+            .platillosZildjean{
+                width: 100%;
+                height: 70%;
+            }
         }
     }
 }
