@@ -6,39 +6,43 @@
     margin-bottom: 20px;
     background-color: gray;
     display: flex;
+    height: 250px;
     section{
-        width: 50%;
+        width: 40%;
         color: map-get($colors, primary );
         padding: 20px;
         font-family: $tipografia;
         font-size: 30px;
         display: flex;
         flex-direction: column;
+        padding-top: 50px;
         .ofertaTitulo{
             align-self: center;
         }
     }
     article{
-        width: 50%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
-        div {
-            display: flex;          
+        div{
+            width: 350px;
+            
+            display: flex;
             .crashK{
-                width: 100%;
-                height: 70%;
+                width: 80%;
+                height: 80%;
                 align-self: end;
             }   
             .platillo{
-                width: 100%;
-                height: 70%;
-
+                width: 80%;
+                height: 80%;
             }
             .platillosZildjean{
-                width: 100%;
-                height: 70%;
+                width: 80%;
+                height: 80%;
             }
-        }
+        }          
+        
     }
 }
 

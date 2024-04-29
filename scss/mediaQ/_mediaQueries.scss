@@ -1,7 +1,10 @@
 @media (max-width:1766px){
     header div ul{
         gap: 70px;
-    }    
+    }
+    .oferta article div {
+        width: 250px;
+    }   
 }
 
 @media (max-width: 1376px){
@@ -11,6 +14,24 @@
     header div ul{
         gap: 0px;
     }
+    .oferta {
+    section h2{
+        font-size: 40px;
+    }
+    article div {
+        width: 200px;
+        .crashK{
+            width: 90%;
+        }
+        .platillosZildjean{
+            width: 90%;
+        }
+        .platillo{
+            width: 90%;
+        }
+    }       
+    }
+    
 }
 
 @media (max-width:1103px){
@@ -22,9 +43,33 @@
     .cards{
         gap: 40px;
     }
-    .oferta section{
+    .oferta section h2{
         font-size: 25px;
     }
+    .oferta {
+        height: 150px;
+        section{
+            width: 30%;
+        }
+        article{
+        width: 70% ;
+        } div {
+        .crashK{
+            width: 60%;
+            height: 60%;
+        }
+        .platillosZildjean{
+            width: 60%;
+            height: 60%;
+
+        }
+        .platillo{
+            width: 60%;
+            height: 60%;
+
+        }
+    }    
+}    
 } 
 
 @media (max-width: 927px){
@@ -58,6 +103,18 @@
         margin-top: 50px;
         align-items: end;
         padding: 0px;
+    }
+    .oferta {
+        section{
+            width: 100%;
+            padding-top: 20px;
+            h2{
+                font-size: 40px;
+            }
+        }
+        article{
+            display: none;
+        }
     }
 }
 
@@ -137,6 +194,12 @@
             display: none;
         }
     }
+    .oferta {
+        height: 100px;
+    section h2{
+            font-size: 30px;
+            }
+        }
 }
 
 @media (max-width:386px){
@@ -157,4 +220,9 @@
             }
         } 
     }
+    .oferta {
+        section h2{
+                font-size: 25px;
+                }
+            }
 }

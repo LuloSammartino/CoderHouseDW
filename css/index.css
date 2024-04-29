@@ -166,33 +166,36 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: gray;
-  display: flex; }
+  display: flex;
+  height: 250px; }
   .oferta section {
-    width: 50%;
+    width: 40%;
     color: #FFD70A;
     padding: 20px;
     font-family: "Metal mania";
     font-size: 30px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-top: 50px; }
     .oferta section .ofertaTitulo {
       align-self: center; }
   .oferta article {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between; }
     .oferta article div {
+      width: 350px;
       display: flex; }
       .oferta article div .crashK {
-        width: 100%;
-        height: 70%;
+        width: 80%;
+        height: 80%;
         align-self: end; }
       .oferta article div .platillo {
-        width: 100%;
-        height: 70%; }
+        width: 80%;
+        height: 80%; }
       .oferta article div .platillosZildjean {
-        width: 100%;
-        height: 70%; }
+        width: 80%;
+        height: 80%; }
 
 .contenedorCategories {
   padding: 80px; }
@@ -330,13 +333,25 @@ footer {
 
 @media (max-width: 1766px) {
   header div ul {
-    gap: 70px; } }
+    gap: 70px; }
+  .oferta article div {
+    width: 250px; } }
 
 @media (max-width: 1376px) {
   header h1 {
     font-size: 40px; }
   header div ul {
-    gap: 0px; } }
+    gap: 0px; }
+  .oferta section h2 {
+    font-size: 40px; }
+  .oferta article div {
+    width: 200px; }
+    .oferta article div .crashK {
+      width: 90%; }
+    .oferta article div .platillosZildjean {
+      width: 90%; }
+    .oferta article div .platillo {
+      width: 90%; } }
 
 @media (max-width: 1103px) {
   header div ul li {
@@ -344,8 +359,23 @@ footer {
     font-size: 60%; }
   .cards {
     gap: 40px; }
-  .oferta section {
-    font-size: 25px; } }
+  .oferta section h2 {
+    font-size: 25px; }
+  .oferta {
+    height: 150px; }
+    .oferta section {
+      width: 30%; }
+    .oferta article {
+      width: 70%; }
+    .oferta div .crashK {
+      width: 60%;
+      height: 60%; }
+    .oferta div .platillosZildjean {
+      width: 60%;
+      height: 60%; }
+    .oferta div .platillo {
+      width: 60%;
+      height: 60%; } }
 
 @media (max-width: 927px) {
   header {
@@ -368,7 +398,14 @@ footer {
   .contacto form {
     margin-top: 50px;
     align-items: end;
-    padding: 0px; } }
+    padding: 0px; }
+  .oferta section {
+    width: 100%;
+    padding-top: 20px; }
+    .oferta section h2 {
+      font-size: 40px; }
+  .oferta article {
+    display: none; } }
 
 @media (max-width: 768px) {
   header div ul {
@@ -424,7 +461,11 @@ footer {
         .contacto form div textarea {
           width: 220px; }
     .contacto article {
-      display: none; } }
+      display: none; }
+  .oferta {
+    height: 100px; }
+    .oferta section h2 {
+      font-size: 30px; } }
 
 @media (max-width: 386px) {
   .contenedorCategories section {
@@ -435,4 +476,6 @@ footer {
   .contacto form div textarea {
     width: 170px; }
   .contacto form div input {
-    width: 170px; } }
+    width: 170px; }
+  .oferta section h2 {
+    font-size: 25px; } }
